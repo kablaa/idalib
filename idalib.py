@@ -4,13 +4,20 @@ import idc
 import obj
 import consts
 
+###global items###
+funcList = []
+funcHistogram = {}
+#################
+
 
 
 def init():
     print "TODO"
-    #generate a list of function objects
+#generate a list of function objects
 
-    #generate a list of segment Objects
+#generate a list of segment Objects
+
+#create a histogram of functions and how often they are called
 
 def checkString(ea):
     tmpEa = idc.PrevAddr(ea)
