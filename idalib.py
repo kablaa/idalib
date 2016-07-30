@@ -65,3 +65,7 @@ def makeStrOffsets():
 #this function should sort the list of functions by number of times they are called and generate a Z score
 def getMostCalledFuncs():
     print "TODO"
+
+#this function should sort the function list by number of function pointers and print them all out
+def getFuncPtrs():
+    print "TODO"
