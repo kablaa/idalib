@@ -6,7 +6,7 @@ import consts
 
 ###global items###
 funcList = []
-funcHistogram = {}
+funcHistogram = []
 #################
 
 
@@ -62,5 +62,6 @@ def makeStrOffsets():
             curLoc = idc.NextHead(xRefLoc)
             if xRefLoc != MAX_EA:
                 idc.OpOff(xRefLoc,0,0)
-
-
+#this function should sort the list of functions by number of times they are called and generate a Z score
+def getMostCalledFuncs():
+    print "TODO"
