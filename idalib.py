@@ -1,8 +1,8 @@
 import idaapi
 import idautils
 import idc
-import obj
-import consts
+import from obj import *
+import from consts import *
 
 
 ###global items###
