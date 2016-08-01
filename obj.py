@@ -3,6 +3,7 @@ import idaapi
 import idautils
 import idc
 import re
+import statistics
 
 class Function(object):
     """docstring for Function"""
@@ -12,8 +13,10 @@ class Function(object):
         self.numFps = 0
         self.fpList = []
         self.numXrefs = 0
+        self.zScore = 0
         self.setNumXrefs()
         self.setFpList()
+        self.setZScore()
 
         @classmethod
         def setNumXrefs(self):
@@ -30,11 +33,17 @@ class Function(object):
 
         @classmethod
         def setFpList(slef):
+            print "TODO"
 
+        @classmethod
+        def setZScore(self):
             print "TODO"
 
         def getFpList(self):
             return self.fpList
+
+        def getZScore(self):
+            return self.zScore
 
 
 class Segment(object):

@@ -4,6 +4,7 @@ import idc
 import obj
 import consts
 
+
 ###global items###
 funcList = []
 funcHistogram = []
