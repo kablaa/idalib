@@ -13,6 +13,8 @@ funcHistogram = []
 
 
 def init():
+    for f in idautils.Functions():
+        funcList.append(Function(f,idc.FindFuncEnd(f)))
     print "TODO"
 #generate a list of function objects
 

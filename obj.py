@@ -39,6 +39,9 @@ class Function(object):
         def setZScore(self):
             print "TODO"
 
+        def getNumXrefs():
+            print "TODO"
+
         def getFpList(self):
             return self.fpList
 
