@@ -1,6 +1,7 @@
 import idaapi
 import idautils
 import idc
+from sats import *
 import from obj import *
 import from consts import *
 

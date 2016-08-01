@@ -13,7 +13,6 @@ class Function(object):
         self.numFps = 0
         self.fpList = []
         self.numXrefs = 0
-        self.zScore = 0
         self.setNumXrefs()
         self.setFpList()
         self.setZScore()
@@ -35,18 +34,12 @@ class Function(object):
         def setFpList(slef):
             print "TODO"
 
-        @classmethod
-        def setZScore(self):
-            print "TODO"
-
         def getNumXrefs():
             print "TODO"
 
         def getFpList(self):
             return self.fpList
 
-        def getZScore(self):
-            return self.zScore
 
 
 class Segment(object):
