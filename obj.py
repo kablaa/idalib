@@ -3,7 +3,7 @@ import idaapi
 import idautils
 import idc
 import re
-import statistics
+
 
 class Function(object):
     """docstring for Function"""
